@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, {
   useCallback,
   useEffect,
@@ -19,7 +20,7 @@ import { UserWarning } from './UserWarning';
 import { getVisibleTodos } from './utils/getVisibleTodos';
 import { Filter } from './types/filter';
 import { ErrorNotifications } from './types/ErrorNotifications';
-import { ErrorMessage } from './components/ErrorMessage';
+import { ErrorMessage } from './components/ErrorMessage/ErrorMessage';
 import { NewTodo } from './types/newTodo';
 
 const USER_ID = 6390;
