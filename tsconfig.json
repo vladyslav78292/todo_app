@@ -1,5 +1,5 @@
 {
-  "extends": "node_modules/@mate-academy/students-ts-config",
+  "extends": "@mate-academy/students-ts-config",
   "include": [
     "src"
   ]
